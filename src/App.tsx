@@ -15,7 +15,7 @@ export default function App() {
   const [direction, setDirection] = useState(0);
 
   const carouselImages = [
-    "https://i.ibb.co/n8LSGBxP/Slide-4-3-2.png?v=2",
+    "https://i.ibb.co/7d88DvpB/unnamed.jpg",
     "https://i.ibb.co/hJn86xC1/Slide-4-3-3.png",
     "https://i.ibb.co/7JcczrfV/Slide-4-3-1.png",
   ];
