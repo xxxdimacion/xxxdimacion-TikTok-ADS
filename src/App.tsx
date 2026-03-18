@@ -88,7 +88,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#161616] text-white font-sans selection:bg-[#EF4444] selection:text-white relative z-0">
+    <div className="min-h-screen bg-[#161616] text-white font-sans selection:bg-[#EF4444] selection:text-white relative z-0 flex flex-col">
       {/* Grid Background */}
       <div className="fixed inset-0 pointer-events-none -z-10" style={{
         backgroundImage: `
@@ -115,7 +115,7 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      <main className="max-w-4xl mx-auto px-6 pt-10 pb-24 flex flex-col items-start relative z-10">
+      <main className="flex-1 w-full max-w-4xl mx-auto px-6 pt-10 pb-6 flex flex-col items-start relative z-10">
         
         {/* Header Section */}
         <motion.div 
@@ -201,10 +201,9 @@ export default function App() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
-          className="mt-8 mb-4 text-center text-xs text-gray-500 flex items-center justify-center gap-2"
+          className="mt-auto pt-8 w-full text-center text-xs text-gray-500 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a href="#" className="hover:text-gray-300 transition-colors">Политика конфиденциальности</a>
-          <span>•</span>
           <a href="#" className="hover:text-gray-300 transition-colors">Условия использования</a>
         </motion.div>
 
