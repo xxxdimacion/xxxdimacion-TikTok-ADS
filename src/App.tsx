@@ -122,7 +122,7 @@ export default function App() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mb-8"
+          className="mb-12"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.15] tracking-tight mb-4 text-left">
             Разбор кейса: <span className="underline decoration-[#EF4444] decoration-4 underline-offset-4">300к₽/мес</span> на трафике
@@ -137,7 +137,7 @@ export default function App() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="w-full mb-8 flex justify-center"
+          className="w-full mb-12 flex justify-center"
         >
           <motion.button
             onClick={handleJoin}
